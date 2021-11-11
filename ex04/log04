@@ -1,8 +1,0 @@
-Make a program called replace that takes a filename and two strings
-ファイル名と二つのstrを受け取る　からはだめ
-ファイルをオープンしてs１をs２に置き換えてFILENAME.replaceに書き込む, 
-after replacing every occurrence of s1 with s2.
-All the member functions of the class std::string are allowed,
-except replace. Use them wisely!
-
-You will turn in some test files to show your program works

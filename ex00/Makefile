@@ -1,9 +1,9 @@
-NAME = Horde
+NAME = BraiiiiiiinnnzzzZ
 COMPILER = clang++
 
 WFLAG = -Wall -Werror -Wextra
 
-SRC =	main.cpp ZombiHorde.cpp Zombie.cpp
+SRC =	main.cpp newZombie.cpp Zombie.cpp
 
 OBJ = $(SRC:.cpp=.o)
 

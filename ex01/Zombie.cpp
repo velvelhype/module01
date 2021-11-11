@@ -15,8 +15,13 @@ Zombie::~Zombie(void)
     std::cout<<" deleted!"<<std::endl;
 };
 
+void    Zombie::setname(std::string name)
+{
+    _name = name;
+};
+
 void    Zombie::announce(void )const
 {
-    std::cout<<name_;
+    std::cout<<_name;
     std::cout<<"BraiiiiiiinnnzzzZ..."<<std::endl;
 }

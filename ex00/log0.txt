@@ -1,0 +1,31 @@
+Files to turn in : Makefile, main.cpp, Zombie.cpp,
+ Zombie.hpp, newZombie.cpp,
+randomChump.cpp
+
+ゾンビクラスを作る
+ゾンビはプライベートな名前を持ってて
+<name> BraiiiiiiinnnzzzZ...
+こういうかんじで自己主張できる
+
+announce( void ) をメンバー関数に
+デストラクターにゾンビの名前を入れたデバッグメッセージを入れる
+
+あたらしいゾンビを作って名前を漬けてあげる　それにたいするポインタを返す
+プロトタイプは
+Zombie* newZombie( std::string name );
+こんな感じ
+
+ゾンビを追加する関数も書いて、それにアナウンスさせる
+void randomChump( std::string name );
+
+まとめ：ゾンビは適切なタイミングで破壊され、
+スタックかヒープか、用途ごとにアロケート
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+log
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+とりあえず、
+create zombieやってみようか
+
+よくわからん　何を作ればいいんだ　実行ファイルはあるのか
+　あるならどう動くんだ

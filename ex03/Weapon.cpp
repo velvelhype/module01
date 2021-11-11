@@ -12,4 +12,4 @@ Weapon::~Weapon() {}
 
 const   std::string&  Weapon::getType(){return (this->_type);};
 
-void    Weapon::setType(const std::string& input) { this->_type = input;}
+void    Weapon::setType(std::string input) { this->_type = input;}
